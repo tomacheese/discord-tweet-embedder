@@ -30,7 +30,7 @@
     "@book000/eslint-config": "1.7.144",
     "@book000/node-utils": "1.13.451",
     "@book000/twitterts": "0.71.207",
-    "@types/node": "20.16.11",
+    "@types/node": "20.17.17",
     "discord.js": "14.17.3",
     "eslint": "9.20.0",
     "eslint-config-standard": "17.1.0",
