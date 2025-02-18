@@ -15,8 +15,8 @@ importers:
         specifier: 1.13.474
         version: 1.13.474
       '@book000/twitterts':
-        specifier: 0.71.229
-        version: 0.71.229
+        specifier: 0.71.230
+        version: 0.71.230
       '@types/node':
         specifier: 20.16.11
         version: 20.16.11
@@ -77,14 +77,11 @@ packages:
       eslint: 9.20.1
       eslint-config-standard: 17.1.0
 
-  '@book000/node-utils@1.13.473':
-    resolution: {integrity: sha512-8IBDEk3Q/CwJgqeM3BXOhrRxQEG0qIwTZLHnOTrqJ1bZw/M8P+0ar+d40ADuhG/TAo4WXtqF9GLl0Lz4REaKMA==}
-
   '@book000/node-utils@1.13.474':
     resolution: {integrity: sha512-kZ+Ejfe/VlTGBYwwgBZ3vuiux8HuNcMYXHpGPL6vjl/u76I9Cc2R+cyF7juwSSRE9Nd2kcqhaLQMawhKZY5TJA==}
 
-  '@book000/twitterts@0.71.229':
-    resolution: {integrity: sha512-hh8cTn31HvP7B5jHfmM/xwLgA0chhgZYlnkTDu/oSln1jkJkOffZrH1Gw38ki61/04laQ+jYN504zFsd3ydQIg==}
+  '@book000/twitterts@0.71.230':
+    resolution: {integrity: sha512-Be48SSvjly5lbe3eJghPK6FCXZ56dYeKzNbl2XEQfmi3JvO6JImietqsyWAW5MqJhzG9Sv+yq89MNYKfka2jmQ==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -2217,18 +2214,6 @@ snapshots:
       - supports-color
       - typescript
 
-  '@book000/node-utils@1.13.473':
-    dependencies:
-      axios: 1.7.9
-      cycle: 1.0.3
-      form-data: 4.0.2
-      jsonc-parser: 3.3.1
-      moment-timezone: 0.5.47
-      winston: 3.17.0
-      winston-daily-rotate-file: 5.0.0(winston@3.17.0)
-    transitivePeerDependencies:
-      - debug
-
   '@book000/node-utils@1.13.474':
     dependencies:
       axios: 1.7.9
@@ -2241,9 +2226,9 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.71.229':
+  '@book000/twitterts@0.71.230':
     dependencies:
-      '@book000/node-utils': 1.13.473
+      '@book000/node-utils': 1.13.474
       genson-js: 0.0.8
       json-schema-to-typescript: 15.0.4
       json-stable-stringify: 1.2.1
