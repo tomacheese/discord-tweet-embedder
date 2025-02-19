@@ -12,8 +12,8 @@ importers:
         specifier: 1.8.4
         version: 1.8.4(eslint-config-standard@17.1.0(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.24.1(eslint@9.20.1)(typescript@5.7.3))(eslint@9.20.1))(eslint-plugin-n@17.15.1(eslint@9.20.1))(eslint-plugin-promise@7.2.1(eslint@9.20.1))(eslint@9.20.1))(eslint@9.20.1)(typescript@5.7.3)
       '@book000/node-utils':
-        specifier: 1.13.474
-        version: 1.13.474
+        specifier: 1.13.475
+        version: 1.13.475
       '@book000/twitterts':
         specifier: 0.71.230
         version: 0.71.230
@@ -79,6 +79,9 @@ packages:
 
   '@book000/node-utils@1.13.474':
     resolution: {integrity: sha512-kZ+Ejfe/VlTGBYwwgBZ3vuiux8HuNcMYXHpGPL6vjl/u76I9Cc2R+cyF7juwSSRE9Nd2kcqhaLQMawhKZY5TJA==}
+
+  '@book000/node-utils@1.13.475':
+    resolution: {integrity: sha512-XDORKXoK3E68p4CzE1qWcwdhskH5W4YrEv4+TDdyYY5Rc5CRBQlavkNcC+aicYVcnMOLyRKUSrqpX+OsdkrPIQ==}
 
   '@book000/twitterts@0.71.230':
     resolution: {integrity: sha512-Be48SSvjly5lbe3eJghPK6FCXZ56dYeKzNbl2XEQfmi3JvO6JImietqsyWAW5MqJhzG9Sv+yq89MNYKfka2jmQ==}
@@ -2221,6 +2224,18 @@ snapshots:
       - typescript
 
   '@book000/node-utils@1.13.474':
+    dependencies:
+      axios: 1.7.9
+      cycle: 1.0.3
+      form-data: 4.0.2
+      jsonc-parser: 3.3.1
+      moment-timezone: 0.5.47
+      winston: 3.17.0
+      winston-daily-rotate-file: 5.0.0(winston@3.17.0)
+    transitivePeerDependencies:
+      - debug
+
+  '@book000/node-utils@1.13.475':
     dependencies:
       axios: 1.7.9
       cycle: 1.0.3
