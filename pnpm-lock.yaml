@@ -15,8 +15,8 @@ importers:
         specifier: 1.14.15
         version: 1.14.15
       '@book000/twitterts':
-        specifier: 0.71.270
-        version: 0.71.270
+        specifier: 0.71.271
+        version: 0.71.271
       '@types/node':
         specifier: 20.16.11
         version: 20.16.11
@@ -83,8 +83,8 @@ packages:
   '@book000/node-utils@1.14.15':
     resolution: {integrity: sha512-Nq83KGI0TelTYa9C40mbqyM7SKOy0sw/VMo4jOBqjwr8yJd442qjcpnnd4yj+tepjqls33ZHjtW5bm1zSIktCw==}
 
-  '@book000/twitterts@0.71.270':
-    resolution: {integrity: sha512-j41rMO+VHvNEfakCHgZIs5ABJlMEkbEz9MKaijYv4vNGJpaf6BNesv20LkT7HmdDRWfY9eeiuFm4MKICWtS4bA==}
+  '@book000/twitterts@0.71.271':
+    resolution: {integrity: sha512-2KLORaDno8KOZ1aVNhAZHi9cNS903cGPuf2RWQBZHBZRR2IwnG7Jx3Ul5wa2/46h8uiIF9moYEOzgW/II/6L2g==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -1538,8 +1538,8 @@ packages:
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  mysql2@3.12.0:
-    resolution: {integrity: sha512-C8fWhVysZoH63tJbX8d10IAoYCyXy4fdRFz2Ihrt9jtPILYynFEKUUzpp1U7qxzDc3tMbotvaBH+sl6bFnGZiw==}
+  mysql2@3.13.0:
+    resolution: {integrity: sha512-M6DIQjTqKeqXH5HLbLMxwcK5XfXHw30u5ap6EZmu7QVmcF/gnh2wS/EOiQ4MTbXz/vQeoXrmycPlVRM00WSslg==}
     engines: {node: '>= 8.0'}
 
   named-placeholders@1.1.3:
@@ -2247,13 +2247,13 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.71.270':
+  '@book000/twitterts@0.71.271':
     dependencies:
       '@book000/node-utils': 1.14.14
       genson-js: 0.0.8
       json-schema-to-typescript: 15.0.4
       json-stable-stringify: 1.2.1
-      mysql2: 3.12.0
+      mysql2: 3.13.0
       otplib: 12.0.1
       puppeteer-core: 24.3.1
       twitter-d: 0.6.0
@@ -3821,7 +3821,7 @@ snapshots:
 
   ms@2.1.3: {}
 
-  mysql2@3.12.0:
+  mysql2@3.13.0:
     dependencies:
       aws-ssl-profiles: 1.1.2
       denque: 2.1.0
