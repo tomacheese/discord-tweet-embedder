@@ -15,8 +15,8 @@ importers:
         specifier: 1.14.22
         version: 1.14.22
       '@book000/twitterts':
-        specifier: 0.71.277
-        version: 0.71.277
+        specifier: 0.71.279
+        version: 0.71.279
       '@types/node':
         specifier: 20.16.11
         version: 20.16.11
@@ -77,14 +77,11 @@ packages:
       eslint: 9.21.0
       eslint-config-standard: 17.1.0
 
-  '@book000/node-utils@1.14.19':
-    resolution: {integrity: sha512-y6J/BlgGxR83+xxpdt0WRALHBr37NFu8LVOYVbhrxkMEhpZcE51eG7ludVovTRxdupPN3FwFI3s8BIA1RNC9gg==}
-
   '@book000/node-utils@1.14.22':
     resolution: {integrity: sha512-IaIdEAk0v83w6PuO7qMy0HqnD+d2VvNORPQy5nhTEnKUu66CbpB78KqWC0xssbp7lau6KIIonR0OcD2NnJulzA==}
 
-  '@book000/twitterts@0.71.277':
-    resolution: {integrity: sha512-j6BGQAWLoquv3kha/6OJp7iTzpUCDLO15KM+GodxSiNKe8NLP4Y1LGsZ1AP0isfVsKLawBQNKtmoy5Y404SvTA==}
+  '@book000/twitterts@0.71.279':
+    resolution: {integrity: sha512-wMBXYSkQo4ABArYNLMjT+nMnpr//vW3xPnDy1G4E4VpxOG55Fm7vF7OJpVH9ZlCWG7mH7m9J6ERGHjRi+xKqbw==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -577,9 +574,6 @@ packages:
   aws-ssl-profiles@1.1.2:
     resolution: {integrity: sha512-NZKeq9AfyQvEeNlN0zSYAaWrmBffJh3IELMZfRpJVWgrpEbtEpnjvzqBPf+mxoI287JohRDoa+/nsfqqiZmF6g==}
     engines: {node: '>= 6.0.0'}
-
-  axios@1.8.1:
-    resolution: {integrity: sha512-NN+fvwH/kV01dYUQ3PTOZns4LWtWhOFCAhQ/pHb88WQ1hNe5V/dvFwc4VJcDL11LT9xSX0QtsR8sWUuyOuOq7g==}
 
   axios@1.8.2:
     resolution: {integrity: sha512-ls4GYBm5aig9vWx8AWDSGLpnpDQRtWAfrjU+EuytuODrFBkqesN2RkOQCBzrA1RQNHw1SmRMSDDDSwzNAYQ6Rg==}
@@ -2226,18 +2220,6 @@ snapshots:
       - supports-color
       - typescript
 
-  '@book000/node-utils@1.14.19':
-    dependencies:
-      axios: 1.8.1
-      cycle: 1.0.3
-      form-data: 4.0.2
-      jsonc-parser: 3.3.1
-      moment-timezone: 0.5.47
-      winston: 3.17.0
-      winston-daily-rotate-file: 5.0.0(winston@3.17.0)
-    transitivePeerDependencies:
-      - debug
-
   '@book000/node-utils@1.14.22':
     dependencies:
       axios: 1.8.2
@@ -2250,9 +2232,9 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.71.277':
+  '@book000/twitterts@0.71.279':
     dependencies:
-      '@book000/node-utils': 1.14.19
+      '@book000/node-utils': 1.14.22
       genson-js: 0.0.8
       json-schema-to-typescript: 15.0.4
       json-stable-stringify: 1.2.1
@@ -2744,14 +2726,6 @@ snapshots:
       possible-typed-array-names: 1.1.0
 
   aws-ssl-profiles@1.1.2: {}
-
-  axios@1.8.1:
-    dependencies:
-      follow-redirects: 1.15.9
-      form-data: 4.0.2
-      proxy-from-env: 1.1.0
-    transitivePeerDependencies:
-      - debug
 
   axios@1.8.2:
     dependencies:
