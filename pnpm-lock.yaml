@@ -15,8 +15,8 @@ importers:
         specifier: 1.14.35
         version: 1.14.35
       '@book000/twitterts':
-        specifier: 0.71.298
-        version: 0.71.298
+        specifier: 0.71.299
+        version: 0.71.299
       '@types/node':
         specifier: 20.16.11
         version: 20.16.11
@@ -80,8 +80,8 @@ packages:
   '@book000/node-utils@1.14.35':
     resolution: {integrity: sha512-ceIy4WlhiWilLZo14arOYKsz931vwYbdBJJDndGbTyZZjYGcVxfhF5Iq9iSEWJsysUNxxNnZsUz4xRzZS8jvRg==}
 
-  '@book000/twitterts@0.71.298':
-    resolution: {integrity: sha512-LraJUfnyOwjeW2NaV4+zAD0qyAR6waeYCid3/UPsMHkmv8B5UMI1aIQaMHT/qEkKe9k8QdVuela21U0Bq4x3AA==}
+  '@book000/twitterts@0.71.299':
+    resolution: {integrity: sha512-9n+FkqdMezslQGP8P6akiN49SrsEADKkkEoJ4otU0qzzxFikl8jOiQJVz+SzQz35MXSyLMn7T1U0nxJ+yFWcKg==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -2062,8 +2062,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  ulid@2.3.0:
-    resolution: {integrity: sha512-keqHubrlpvT6G2wH0OEfSW4mquYRcbe/J8NMmveoQOjUqmo+hXtO+ORCpWhdbZ7k72UtY61BL7haGxW6enBnjw==}
+  ulid@2.4.0:
+    resolution: {integrity: sha512-fIRiVTJNcSRmXKPZtGzFQv9WRrZ3M9eoptl/teFJvjOzmpU+/K/JH6HZ8deBfb5vMEpicJcLn7JmvdknlMq7Zg==}
     hasBin: true
 
   unbox-primitive@1.1.0:
@@ -2236,7 +2236,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.71.298':
+  '@book000/twitterts@0.71.299':
     dependencies:
       '@book000/node-utils': 1.14.35
       genson-js: 0.0.8
@@ -2246,7 +2246,7 @@ snapshots:
       otplib: 12.0.1
       puppeteer-core: 24.4.0
       twitter-d: 0.6.0
-      ulid: 2.3.0
+      ulid: 2.4.0
     transitivePeerDependencies:
       - bare-buffer
       - bufferutil
@@ -4448,7 +4448,7 @@ snapshots:
 
   typescript@5.8.2: {}
 
-  ulid@2.3.0: {}
+  ulid@2.4.0: {}
 
   unbox-primitive@1.1.0:
     dependencies:
