@@ -15,8 +15,8 @@ importers:
         specifier: 1.14.69
         version: 1.14.69
       '@book000/twitterts':
-        specifier: 0.73.9
-        version: 0.73.9
+        specifier: 0.73.10
+        version: 0.73.10
       '@types/node':
         specifier: 20.16.11
         version: 20.16.11
@@ -80,8 +80,8 @@ packages:
   '@book000/node-utils@1.14.69':
     resolution: {integrity: sha512-l5DKVrBBj7ReF739363TfEJW2xiHuS2k+kFcAejMaCbriRWiNN2varbfkL56Z4eS5b+6HZJck7EpOx3fAaxrKg==}
 
-  '@book000/twitterts@0.73.9':
-    resolution: {integrity: sha512-P6iOz3VIvPemztweTvCzpsXlb+qylM3jBSPmjdoYnKS1TgWJYPTngexX358M6liJF1sJODjaXQsM3InDD8e36Q==}
+  '@book000/twitterts@0.73.10':
+    resolution: {integrity: sha512-/o1Fg86D3kE/WrXmvpfxnpE49ZHLjHxlA2xt6G1widJ/t36mTT3WzJg/+iPSX8/z6WdPaWT6cX84TOtMwCXF7Q==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -374,8 +374,8 @@ packages:
   '@otplib/preset-v11@12.0.1':
     resolution: {integrity: sha512-9hSetMI7ECqbFiKICrNa4w70deTUfArtwXykPUvSHWOdzOlfa9ajglu7mNCntlvxycTiOAXkQGwjQCzzDEMRMg==}
 
-  '@puppeteer/browsers@2.9.0':
-    resolution: {integrity: sha512-8+xM+cFydYET4X/5/3yZMHs7sjS6c9I6H5I3xJdb6cinzxWUT/I2QVw4avxCQ8QDndwdHkG/FiSZIrCjAbaKvQ==}
+  '@puppeteer/browsers@2.10.0':
+    resolution: {integrity: sha512-HdHF4rny4JCvIcm7V1dpvpctIGqM3/Me255CB44vW7hDG1zYMmcBMjpNqZEDxdCfXGLkx5kP0+Jz5DUS+ukqtA==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1714,8 +1714,8 @@ packages:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
-  puppeteer-core@24.6.0:
-    resolution: {integrity: sha512-Cukxysy12m0v350bhl/Gzof0XQYmtON9l2VvGp3D4BOQZVgyf+y5wIpcjDZQ/896Okoi95dKRGRV8E6a7SYAQQ==}
+  puppeteer-core@24.6.1:
+    resolution: {integrity: sha512-sMCxsY+OPWO2fecBrhIeCeJbWWXJ6UaN997sTid6whY0YT9XM0RnxEwLeUibluIS5/fRmuxe1efjb5RMBsky7g==}
     engines: {node: '>=18'}
 
   queue-microtask@1.2.3:
@@ -2245,7 +2245,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.73.9':
+  '@book000/twitterts@0.73.10':
     dependencies:
       '@book000/node-utils': 1.14.69
       genson-js: 0.0.8
@@ -2253,7 +2253,7 @@ snapshots:
       json-stable-stringify: 1.2.1
       mysql2: 3.14.0
       otplib: 12.0.1
-      puppeteer-core: 24.6.0
+      puppeteer-core: 24.6.1
       twitter-d: 0.6.0
       ulid: 3.0.0
     transitivePeerDependencies:
@@ -2504,7 +2504,7 @@ snapshots:
       '@otplib/plugin-crypto': 12.0.1
       '@otplib/plugin-thirty-two': 12.0.1
 
-  '@puppeteer/browsers@2.9.0':
+  '@puppeteer/browsers@2.10.0':
     dependencies:
       debug: 4.4.0
       extract-zip: 2.0.1
@@ -4011,9 +4011,9 @@ snapshots:
 
   punycode@2.3.1: {}
 
-  puppeteer-core@24.6.0:
+  puppeteer-core@24.6.1:
     dependencies:
-      '@puppeteer/browsers': 2.9.0
+      '@puppeteer/browsers': 2.10.0
       chromium-bidi: 3.0.0(devtools-protocol@0.0.1425554)
       debug: 4.4.0
       devtools-protocol: 0.0.1425554
