@@ -18,8 +18,8 @@ importers:
         specifier: 0.74.41
         version: 0.74.41
       '@types/node':
-        specifier: 22.15.3
-        version: 22.15.3
+        specifier: 22.15.6
+        version: 22.15.6
       discord.js:
         specifier: 14.19.3
         version: 14.19.3
@@ -420,8 +420,8 @@ packages:
   '@types/node@18.19.87':
     resolution: {integrity: sha512-OIAAu6ypnVZHmsHCeJ+7CCSub38QNBS9uceMQeg7K5Ur0Jr+wG9wEOEvvMbhp09pxD5czIUy/jND7s7Tb6Nw7A==}
 
-  '@types/node@22.15.3':
-    resolution: {integrity: sha512-lX7HFZeHf4QG/J7tBZqrCAXwz9J5RD56Y6MpP0eJkka8p+K0RY/yBTW7CYFJ4VGCclxqOLKmiGP5juQc6MKgcw==}
+  '@types/node@22.15.6':
+    resolution: {integrity: sha512-jIdRQl0HWC2HNjV2HmX3Oq76keYInKHWQssGAZz++a9Tu7zGswzyhOFy3NNWI9pZPzCcUritUnkjBWSYA7lI4g==}
 
   '@types/triple-beam@1.3.5':
     resolution: {integrity: sha512-6WaYesThRMCl19iryMYP7/x2OVgCtbIVflDGFpWnb9irXI3UjYE4AzmYuiUKY1AJstGijoY+MgUszMgRxIYTYw==}
@@ -2687,7 +2687,7 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
-  '@types/node@22.15.3':
+  '@types/node@22.15.6':
     dependencies:
       undici-types: 6.21.0
 
@@ -2695,11 +2695,11 @@ snapshots:
 
   '@types/ws@8.18.1':
     dependencies:
-      '@types/node': 22.15.3
+      '@types/node': 22.15.6
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 22.15.3
+      '@types/node': 22.15.6
     optional: true
 
   '@typescript-eslint/eslint-plugin@8.32.0(@typescript-eslint/parser@8.32.0(eslint@9.26.0)(typescript@5.8.3))(eslint@9.26.0)(typescript@5.8.3)':
