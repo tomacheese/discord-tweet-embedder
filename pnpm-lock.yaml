@@ -15,8 +15,8 @@ importers:
         specifier: 1.16.14
         version: 1.16.14
       '@book000/twitterts':
-        specifier: 0.75.7
-        version: 0.75.7
+        specifier: 0.77.2
+        version: 0.77.2
       '@types/node':
         specifier: 22.15.27
         version: 22.15.27
@@ -73,14 +73,14 @@ packages:
       eslint: 9.27.0
       eslint-config-standard: 17.1.0
 
-  '@book000/node-utils@1.16.10':
-    resolution: {integrity: sha512-zHhzVY32KI0nUL+h6/oPmVIICnCGQFjUzUrK1rzuldSuKmhqJe4Ad1G9ZpWDj7LrW8qJ8KpHW4oZmNhTfE7YKw==}
-
   '@book000/node-utils@1.16.14':
     resolution: {integrity: sha512-wwARFTtl4TRfbzQQVuKMav3rK7TfJP6f6DeXtTHYgbRIL9xE5VeCOJBbCaUsdvjCACTFJ5KZddU4BSOgAih2qA==}
 
-  '@book000/twitterts@0.75.7':
-    resolution: {integrity: sha512-c90WF2SlQZkF11zJPZSCi7Nn3hYTwmgvbub0R53UpKNQs0k8cVvaNreByhtR1f6JNb9/Jtcns6pcsejDwFQIkg==}
+  '@book000/node-utils@1.16.15':
+    resolution: {integrity: sha512-N2Ckbt3lBfLydvVL8ScAooHCxwNKQJhLMD0G+xi3kij6ReJcIoMS7NH9xJTqY/CBtF/BRbXqvLdsbOMppC6i6Q==}
+
+  '@book000/twitterts@0.77.2':
+    resolution: {integrity: sha512-RxusTY8cnWtVrblCOPBYd27S1q6y/5LEXNLN3oG0JhYbZzHax9UPze86QN/tEDqp+LSWRIOBXcG9f3sz+rh+oA==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -2191,18 +2191,6 @@ snapshots:
       - supports-color
       - typescript
 
-  '@book000/node-utils@1.16.10':
-    dependencies:
-      axios: 1.9.0
-      cycle: 1.0.3
-      form-data: 4.0.2
-      jsonc-parser: 3.3.1
-      moment-timezone: 0.6.0
-      winston: 3.17.0
-      winston-daily-rotate-file: 5.0.0(winston@3.17.0)
-    transitivePeerDependencies:
-      - debug
-
   '@book000/node-utils@1.16.14':
     dependencies:
       axios: 1.9.0
@@ -2215,9 +2203,21 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.75.7':
+  '@book000/node-utils@1.16.15':
     dependencies:
-      '@book000/node-utils': 1.16.10
+      axios: 1.9.0
+      cycle: 1.0.3
+      form-data: 4.0.2
+      jsonc-parser: 3.3.1
+      moment-timezone: 0.6.0
+      winston: 3.17.0
+      winston-daily-rotate-file: 5.0.0(winston@3.17.0)
+    transitivePeerDependencies:
+      - debug
+
+  '@book000/twitterts@0.77.2':
+    dependencies:
+      '@book000/node-utils': 1.16.15
       genson-js: 0.0.8
       json-schema-to-typescript: 15.0.4
       json-stable-stringify: 1.3.0
