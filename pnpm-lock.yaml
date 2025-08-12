@@ -12,8 +12,8 @@ importers:
         specifier: 1.10.8
         version: 1.10.8(eslint-config-standard@17.1.0(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.39.0(eslint@9.32.0)(typescript@5.9.2))(eslint@9.32.0))(eslint-plugin-n@17.21.3(eslint@9.32.0)(typescript@5.9.2))(eslint-plugin-promise@7.2.1(eslint@9.32.0))(eslint@9.32.0))(eslint@9.32.0)(typescript@5.9.2)
       '@book000/node-utils':
-        specifier: 1.18.103
-        version: 1.18.103
+        specifier: 1.18.105
+        version: 1.18.105
       '@book000/twitterts':
         specifier: 0.82.59
         version: 0.82.59
@@ -76,8 +76,8 @@ packages:
   '@book000/node-utils@1.18.102':
     resolution: {integrity: sha512-dlXyjipEPbC28TeF5Jtlaj1rK8poYpQJHo8jQ15ey5SIqWKoOUFAZWk/o2DD8xzLMzJbetclHYhhyOXG+V5HFA==}
 
-  '@book000/node-utils@1.18.103':
-    resolution: {integrity: sha512-RQ/cHjrzYNsRp7G/8xLjuYjg4afffdmZlC5cmp0N4E4SDb3qpY/pfQSyHN985bo44NGEoigUzas5XWcl/I8OpA==}
+  '@book000/node-utils@1.18.105':
+    resolution: {integrity: sha512-5W/LMsWz+3Xu0/t3+CpPBBV05lXKO0b7lLpeoKwCZBpNIg8t8DNcLmDyOqsEPjlXOp2ESBb6H3u+mBfVcnaOIw==}
 
   '@book000/twitterts@0.82.59':
     resolution: {integrity: sha512-hFniu1f2MT819bYY2DZeWDR71Dcf9/LgGBrnNou8iie1JdFu3I9yalIm3KNpWIO7EKw4H+KZk0yOmZseN/fCRA==}
@@ -2224,7 +2224,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/node-utils@1.18.103':
+  '@book000/node-utils@1.18.105':
     dependencies:
       axios: 1.11.0
       cycle: 1.0.3
