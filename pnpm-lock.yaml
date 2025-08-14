@@ -15,8 +15,8 @@ importers:
         specifier: 1.18.105
         version: 1.18.105
       '@book000/twitterts':
-        specifier: 0.82.63
-        version: 0.82.63
+        specifier: 0.82.65
+        version: 0.82.65
       '@types/node':
         specifier: 22.17.1
         version: 22.17.1
@@ -76,8 +76,11 @@ packages:
   '@book000/node-utils@1.18.105':
     resolution: {integrity: sha512-5W/LMsWz+3Xu0/t3+CpPBBV05lXKO0b7lLpeoKwCZBpNIg8t8DNcLmDyOqsEPjlXOp2ESBb6H3u+mBfVcnaOIw==}
 
-  '@book000/twitterts@0.82.63':
-    resolution: {integrity: sha512-/zOQS/obrbGdxvNg4kwYsOQtT83NDx98HBEGyftEY+tUaELKZKqT141eyx3nv4uka4ZeiLqvORqu4/21V1r+7w==}
+  '@book000/node-utils@1.18.106':
+    resolution: {integrity: sha512-m5XzElW6TEAWFc4y0f3jX3nI+IYEuY6u95E/7dH43XvWAyG5v1lio0HjHAse+5b7LD+U4KN+oNHBfkReAWtCSg==}
+
+  '@book000/twitterts@0.82.65':
+    resolution: {integrity: sha512-claOnnDl+8cOpnIqr0NivVsgR56JO4WlSaQJhhjKXzq40ltGMymJOUk18MlgDYM7BeB2Ai5QI8OJZplFVl612Q==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -685,8 +688,8 @@ packages:
   change-case@5.4.4:
     resolution: {integrity: sha512-HRQyTk2/YPEkt9TnUPbOpr64Uw3KOicFWPVBb+xiHvd6eBx/qPr9xqfBFDT8P2vWsvvz4jbEkfDe71W3VyNu2w==}
 
-  chromium-bidi@7.2.0:
-    resolution: {integrity: sha512-gREyhyBstermK+0RbcJLbFhcQctg92AGgDe/h/taMJEOLRdtSswBAO9KmvltFSQWgM2LrwWu5SIuEUbdm3JsyQ==}
+  chromium-bidi@7.3.1:
+    resolution: {integrity: sha512-i+BMGluhZZc4Jic9L1aHJBTfaopxmCqQxGklyMcqFx4fvF3nI4BJ3bCe1ad474nvYRIo/ZN/VrdA4eOaRZua4Q==}
     peerDependencies:
       devtools-protocol: '*'
 
@@ -1713,8 +1716,8 @@ packages:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
-  puppeteer-core@24.16.0:
-    resolution: {integrity: sha512-tZ0tJiOYaDGTRzzr2giDpf8O/55JsoqkrafS1Xu4H6S8oP4eeL6RbZzY9OzjShSf5EQvx/zAc55QKpDqzXos/Q==}
+  puppeteer-core@24.16.1:
+    resolution: {integrity: sha512-0dGD2kxoH9jqj/xiz4KZLcPKpqWygs+VSEBzvuVbU3KoT2cCw4HnMT9r/7NvYl1lIa+JCa5yIyRqi+4R3UyYfQ==}
     engines: {node: '>=18'}
 
   queue-microtask@1.2.3:
@@ -2221,15 +2224,27 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.82.63':
+  '@book000/node-utils@1.18.106':
     dependencies:
-      '@book000/node-utils': 1.18.105
+      axios: 1.11.0
+      cycle: 1.0.3
+      form-data: 4.0.4
+      jsonc-parser: 3.3.1
+      moment-timezone: 0.6.0
+      winston: 3.17.0
+      winston-daily-rotate-file: 5.0.0(winston@3.17.0)
+    transitivePeerDependencies:
+      - debug
+
+  '@book000/twitterts@0.82.65':
+    dependencies:
+      '@book000/node-utils': 1.18.106
       genson-js: 0.0.8
       json-schema-to-typescript: 15.0.4
       json-stable-stringify: 1.3.0
       mysql2: 3.14.3
       otplib: 12.0.1
-      puppeteer-core: 24.16.0
+      puppeteer-core: 24.16.1
       twitter-d: 0.6.0
       ulid: 3.0.1
     transitivePeerDependencies:
@@ -2831,7 +2846,7 @@ snapshots:
 
   change-case@5.4.4: {}
 
-  chromium-bidi@7.2.0(devtools-protocol@0.0.1475386):
+  chromium-bidi@7.3.1(devtools-protocol@0.0.1475386):
     dependencies:
       devtools-protocol: 0.0.1475386
       mitt: 3.0.1
@@ -3998,10 +4013,10 @@ snapshots:
 
   punycode@2.3.1: {}
 
-  puppeteer-core@24.16.0:
+  puppeteer-core@24.16.1:
     dependencies:
       '@puppeteer/browsers': 2.10.6
-      chromium-bidi: 7.2.0(devtools-protocol@0.0.1475386)
+      chromium-bidi: 7.3.1(devtools-protocol@0.0.1475386)
       debug: 4.4.1
       devtools-protocol: 0.0.1475386
       typed-query-selector: 2.12.0
