@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@book000/eslint-config": "1.11.5",
-    "@book000/node-utils": "1.18.131",
+    "@book000/node-utils": "1.18.132",
     "@book000/twitterts": "0.83.42",
     "@types/node": "22.18.10",
     "discord.js": "14.23.2",
