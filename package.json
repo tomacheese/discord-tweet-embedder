@@ -31,7 +31,7 @@
     "@book000/node-utils": "1.18.142",
     "@book000/twitterts": "0.83.62",
     "@types/node": "22.18.12",
-    "discord.js": "14.23.2",
+    "discord.js": "14.24.0",
     "eslint": "9.38.0",
     "eslint-config-standard": "17.1.0",
     "eslint-plugin-import": "2.32.0",
