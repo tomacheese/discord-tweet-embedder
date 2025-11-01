@@ -12,8 +12,8 @@ importers:
         specifier: 1.11.13
         version: 1.11.13(eslint-config-standard@17.1.0(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.46.2(eslint@9.38.0)(typescript@5.9.3))(eslint@9.38.0))(eslint-plugin-n@17.23.1(eslint@9.38.0)(typescript@5.9.3))(eslint-plugin-promise@7.2.1(eslint@9.38.0))(eslint@9.38.0))(eslint@9.38.0)(typescript@5.9.3)
       '@book000/node-utils':
-        specifier: 1.18.147
-        version: 1.18.147
+        specifier: 1.18.149
+        version: 1.18.149
       '@book000/twitterts':
         specifier: 0.83.70
         version: 0.83.70
@@ -76,8 +76,8 @@ packages:
   '@book000/node-utils@1.18.144':
     resolution: {integrity: sha512-4CFonKWJh3wvak83VY84flBGaBXVLI3HUOtRPlMbXP3yEORnQ0vL3GGiNfwN1fd/Tc4zq3u5rzi3TSv6Ze9MuA==}
 
-  '@book000/node-utils@1.18.147':
-    resolution: {integrity: sha512-OieyQpK1lCngYpZ+TouPhJiueUzVzgBOl6+FNwhl+PwC1T2FfAPkx07OYG32hEcqhWEpMCRTP1Xzo2pFEDSynQ==}
+  '@book000/node-utils@1.18.149':
+    resolution: {integrity: sha512-kPahI29aL8I7GGABO1y+RnP5w0+giU/k6nOJAX3mkmaHqTHCDtwBtKznkuHTptztnruIeRFgLkjr9gtQy455vg==}
 
   '@book000/twitterts@0.83.70':
     resolution: {integrity: sha512-cWHk8Lqg1PkHfG7TVFki+5lPg2Mf27iLviP8smhf/0a4dRKWaqcTq8XlBFvFMozYyUc42WRbgru5o0NIFx+EmQ==}
@@ -594,6 +594,9 @@ packages:
 
   axios@1.13.0:
     resolution: {integrity: sha512-zt40Pz4zcRXra9CVV31KeyofwiNvAbJ5B6YPz9pMJ+yOSLikvPT4Yi5LjfgjRa9CawVYBaD1JQzIVcIvBejKeA==}
+
+  axios@1.13.1:
+    resolution: {integrity: sha512-hU4EGxxt+j7TQijx1oYdAjw4xuIp1wRQSsbMFwSthCWeBQur1eF+qJ5iQ5sN3Tw8YRzQNKb8jszgBdMDVqwJcw==}
 
   b4a@1.7.3:
     resolution: {integrity: sha512-5Q2mfq2WfGuFp3uS//0s6baOJLMoVduPYVeNmDYxu5OUA1/cBfvr2RIS7vi62LdNj/urk1hfmj867I3qt6uZ7Q==}
@@ -2231,9 +2234,9 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/node-utils@1.18.147':
+  '@book000/node-utils@1.18.149':
     dependencies:
-      axios: 1.13.0
+      axios: 1.13.1
       cycle: 1.0.3
       form-data: 4.0.4
       jsonc-parser: 3.3.1
@@ -2770,6 +2773,14 @@ snapshots:
   aws-ssl-profiles@1.1.2: {}
 
   axios@1.13.0:
+    dependencies:
+      follow-redirects: 1.15.11
+      form-data: 4.0.4
+      proxy-from-env: 1.1.0
+    transitivePeerDependencies:
+      - debug
+
+  axios@1.13.1:
     dependencies:
       follow-redirects: 1.15.11
       form-data: 4.0.4
